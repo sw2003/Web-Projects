@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 181, 247);
+    width: 25vh;
+    height: 25vh;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25vh;
+    height: 5vh;
+    background-color: rgb(181, 181, 247);
+    margin: 1vh;
+    border-radius: 10px;
+}
+
+.start-stop-btn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 7vh;
+    height: 5vh;
+    background-color: rgb(119, 38, 212);
+    border-radius: 15vh;
+    box-sizing: border-box;
+    
+}
